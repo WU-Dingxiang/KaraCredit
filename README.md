@@ -1,2 +1,2 @@
-# An Online Shopping Web Application Demo for Java
-This online shopping web application demo makes it easier to build a shopping website.
+# KaraBay Online Shopping Website for Java
+The KaraBay online website makes it easier to enjoy your shopping time.
