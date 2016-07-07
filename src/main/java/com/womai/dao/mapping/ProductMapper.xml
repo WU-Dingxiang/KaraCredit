@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.womai.dao.ProductDAO">
+
+	<!-- BaseResultMap -->
+	<resultMap id="BaseResultMap" type="com.womai.model.Product">
+		<id column="ID" property="id" jdbcType="INTEGER" />
+		<result column="description" property="description" jdbcType="VARCHAR" />
+		<result column="price" property="price" jdbcType="INTEGER" />
+	</resultMap>
+
+	<!-- Base_Column_List -->
+	<sql id="Base_Column_List">
+		ID, description, price
+	</sql>
+
+	<!-- selectByDescription -->
+	<select id="selectByDescription" resultMap="BaseResultMap"
+		parameterType="java.lang.String">
+		select
+		<include refid="Base_Column_List" />
+		from product
+		where description like
+		"%"#{description,jdbcType=VARCHAR}"%"
+	</select>
+
+	<!-- selectByPrimaryKey -->
+	<select id="selectByPrimaryKey" resultMap="BaseResultMap"
+		parameterType="java.lang.Integer">
+		select
+		<include refid="Base_Column_List" />
+		from product
+		where ID = #{id,jdbcType=INTEGER}
+	</select>
+
+	<!-- deleteByPrimaryKey -->
+	<delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+		delete from
+		product
+		where ID = #{id,jdbcType=INTEGER}
+	</delete>
+
+	<!-- insert -->
+	<insert id="insert" parameterType="com.womai.model.Product">
+		insert into product (ID,
+		description, price
+		)
+		values (#{id,jdbcType=INTEGER},
+		#{description,jdbcType=VARCHAR},
+		#{price,jdbcType=INTEGER}
+		)
+	</insert>
+
+	<!-- insertSelective -->
+	<insert id="insertSelective" parameterType="com.womai.model.Product">
+		insert into product
+		<trim prefix="(" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				ID,
+			</if>
+			<if test="description != null">
+				description,
+			</if>
+			<if test="price != null">
+				price,
+			</if>
+		</trim>
+		<trim prefix="values (" suffix=")" suffixOverrides=",">
+			<if test="id != null">
+				#{id,jdbcType=INTEGER},
+			</if>
+			<if test="description != null">
+				#{description,jdbcType=VARCHAR},
+			</if>
+			<if test="price != null">
+				#{price,jdbcType=INTEGER},
+			</if>
+		</trim>
+	</insert>
+
+	<!-- updateByPrimaryKeySelective -->
+	<update id="updateByPrimaryKeySelective" parameterType="com.womai.model.Product">
+		update product
+		<set>
+			<if test="description != null">
+				description = #{description,jdbcType=VARCHAR},
+			</if>
+			<if test="price != null">
+				price = #{price,jdbcType=INTEGER},
+			</if>
+		</set>
+		where ID = #{id,jdbcType=INTEGER}
+	</update>
+
+	<!-- updateByPrimaryKey -->
+	<update id="updateByPrimaryKey" parameterType="com.womai.model.Product">
+		update product
+		set
+		description = #{description,jdbcType=VARCHAR},
+		price =
+		#{price,jdbcType=INTEGER}
+		where ID = #{id,jdbcType=INTEGER}
+	</update>
+</mapper>
