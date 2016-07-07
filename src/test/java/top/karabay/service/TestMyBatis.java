@@ -1,4 +1,4 @@
-package com.womai.service;
+package top.karabay.service;
 
 import javax.annotation.Resource;
 
@@ -9,7 +9,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
-import com.womai.model.Product;
+
+import top.karabay.model.Product;
+import top.karabay.service.ProductService;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:spring-mybatis.xml" })

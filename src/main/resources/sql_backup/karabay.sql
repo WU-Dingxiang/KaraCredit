@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.1.49, for Win32 (ia32)
 --
--- Host: localhost    Database: womai
+-- Host: localhost    Database: karabay
 -- ------------------------------------------------------
 -- Server version	5.1.49-community
 
@@ -36,7 +36,7 @@ CREATE TABLE `product` (
 
 LOCK TABLES `product` WRITE;
 /*!40000 ALTER TABLE `product` DISABLE KEYS */;
-INSERT INTO `product` VALUES (1,'Xuanwumen 10',100);
+INSERT INTO `product` VALUES (1,'karabay 1.0.0',99);
 /*!40000 ALTER TABLE `product` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;

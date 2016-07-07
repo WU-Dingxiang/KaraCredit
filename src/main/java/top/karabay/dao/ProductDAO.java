@@ -1,8 +1,8 @@
-package com.womai.dao;
+package top.karabay.dao;
 
 import java.util.List;
 
-import com.womai.model.Product;
+import top.karabay.model.Product;
 
 public interface ProductDAO {
     int deleteByPrimaryKey(Integer id);

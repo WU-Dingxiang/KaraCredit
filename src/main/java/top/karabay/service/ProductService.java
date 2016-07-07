@@ -1,8 +1,8 @@
-package com.womai.service;
+package top.karabay.service;
 
 import java.util.List;
 
-import com.womai.model.Product;
+import top.karabay.model.Product;
 
 public interface ProductService {
 	public Product getProductById(int id);

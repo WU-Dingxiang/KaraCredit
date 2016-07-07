@@ -1,11 +1,11 @@
-package com.womai.service.impl.cache;
+package top.karabay.service.impl.cache;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.womai.model.Product;
+import top.karabay.model.Product;
 
 public class CacheHelper {
 	private static final Map<Integer, Product> productCache = new ConcurrentHashMap<>();

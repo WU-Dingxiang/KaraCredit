@@ -1,4 +1,4 @@
-package com.womai.service.impl;
+package top.karabay.service.impl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,10 +9,11 @@ import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSON;
-import com.womai.dao.ProductDAO;
-import com.womai.model.Product;
-import com.womai.service.ProductService;
-import com.womai.service.impl.cache.CacheHelper;
+
+import top.karabay.dao.ProductDAO;
+import top.karabay.model.Product;
+import top.karabay.service.ProductService;
+import top.karabay.service.impl.cache.CacheHelper;
 
 @Service("productService")
 public class ProductServiceImpl implements ProductService {

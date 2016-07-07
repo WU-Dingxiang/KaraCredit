@@ -1,4 +1,4 @@
-package com.womai.controller;
+package top.karabay.controller;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.womai.model.Product;
-import com.womai.service.PayService;
-import com.womai.service.ProductService;
+import top.karabay.model.Product;
+import top.karabay.service.PayService;
+import top.karabay.service.ProductService;
 
 @Controller
 public class ProductController {

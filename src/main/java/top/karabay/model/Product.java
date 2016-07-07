@@ -1,4 +1,4 @@
-package com.womai.model;
+package top.karabay.model;
 
 public class Product {
     private Integer id;

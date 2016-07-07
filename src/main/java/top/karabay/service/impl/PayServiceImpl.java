@@ -1,9 +1,9 @@
-package com.womai.service.impl;
+package top.karabay.service.impl;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Service;
 
-import com.womai.service.PayService;
+import top.karabay.service.PayService;
 
 @Service("payServiceImpl")
 public class PayServiceImpl implements PayService {

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.womai.dao.ProductDAO">
+<mapper namespace="top.karabay.dao.ProductDAO">
 
 	<!-- BaseResultMap -->
-	<resultMap id="BaseResultMap" type="com.womai.model.Product">
+	<resultMap id="BaseResultMap" type="top.karabay.model.Product">
 		<id column="ID" property="id" jdbcType="INTEGER" />
 		<result column="description" property="description" jdbcType="VARCHAR" />
 		<result column="price" property="price" jdbcType="INTEGER" />
@@ -41,7 +41,7 @@
 	</delete>
 
 	<!-- insert -->
-	<insert id="insert" parameterType="com.womai.model.Product">
+	<insert id="insert" parameterType="top.karabay.model.Product">
 		insert into product (ID,
 		description, price
 		)
@@ -52,7 +52,7 @@
 	</insert>
 
 	<!-- insertSelective -->
-	<insert id="insertSelective" parameterType="com.womai.model.Product">
+	<insert id="insertSelective" parameterType="top.karabay.model.Product">
 		insert into product
 		<trim prefix="(" suffix=")" suffixOverrides=",">
 			<if test="id != null">
@@ -79,7 +79,7 @@
 	</insert>
 
 	<!-- updateByPrimaryKeySelective -->
-	<update id="updateByPrimaryKeySelective" parameterType="com.womai.model.Product">
+	<update id="updateByPrimaryKeySelective" parameterType="top.karabay.model.Product">
 		update product
 		<set>
 			<if test="description != null">
@@ -93,7 +93,7 @@
 	</update>
 
 	<!-- updateByPrimaryKey -->
-	<update id="updateByPrimaryKey" parameterType="com.womai.model.Product">
+	<update id="updateByPrimaryKey" parameterType="top.karabay.model.Product">
 		update product
 		set
 		description = #{description,jdbcType=VARCHAR},
