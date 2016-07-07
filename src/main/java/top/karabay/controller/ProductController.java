@@ -47,12 +47,14 @@ public class ProductController {
 					return "prepareForPay_ok";
 				}
 				model.addAttribute("error", "product == null");
+				return "failed";
 			}
 			model.addAttribute("error", "productId == 0");
+			return "failed";
 		} catch (Exception e) {
 			model.addAttribute("error", e.toString());
+			return "failed";
 		}
-		return "failed";
 	}
 
 	@RequestMapping("pay")
@@ -70,13 +72,16 @@ public class ProductController {
 						return "pay_ok";
 					}
 					model.addAttribute("error", payResult);
+					return "failed";
 				}
 				model.addAttribute("error", "payResult == null");
+				return "failed";
 			}
 			model.addAttribute("error", "productId == 0");
+			return "failed";
 		} catch (Exception e) {
 			model.addAttribute("error", e.toString());
+			return "failed";
 		}
-		return "failed";
 	}
 }
