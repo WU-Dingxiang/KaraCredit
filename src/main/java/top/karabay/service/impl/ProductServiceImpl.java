@@ -60,4 +60,10 @@ public class ProductServiceImpl implements ProductService {
 		logger.info("daoProductList = " + JSON.toJSON(daoProductList));
 		return daoProductList;
 	}
+
+	@Override
+	public boolean isAvailable(int productId) {
+		// Integer productCount =
+		return true;
+	}
 }

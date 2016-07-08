@@ -41,12 +41,18 @@ public class ProductController {
 		try {
 			int productId = Integer.valueOf(request.getParameter("id"));
 			if (productId != 0) {
-				Product product = productService.getProductById(productId);
-				if (product != null) {
-					model.addAttribute("product", product);
-					return "prepareForPay_ok";
+				boolean available = productService.isAvailable(productId);
+				if (available) {
+					// orderService.order(userId, productId);
+					Product product = productService.getProductById(productId);
+					if (product != null) {
+						model.addAttribute("product", product);
+						return "prepareForPay_ok";
+					}
+					model.addAttribute("error", "product == null");
+					return "failed";
 				}
-				model.addAttribute("error", "product == null");
+				model.addAttribute("error", "商品已售罄");
 				return "failed";
 			}
 			model.addAttribute("error", "productId == 0");
