@@ -17,7 +17,7 @@
 			<tr>
 				<td>支付金额</td>
 				<td><fmt:formatNumber value="${product.price/100}"
-						pattern="￥#.00" type="number" /></td>
+						pattern="Y#0.00" type="number" /></td>
 			</tr>
 			<tr>
 				<td>支付账号</td>

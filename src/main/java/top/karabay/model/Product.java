@@ -2,9 +2,7 @@ package top.karabay.model;
 
 public class Product {
     private Integer id;
-
     private String description;
-
     private Integer price;
 
     public Integer getId() {

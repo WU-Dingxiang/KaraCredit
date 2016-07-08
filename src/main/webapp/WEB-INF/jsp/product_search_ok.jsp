@@ -14,7 +14,7 @@
 				<td>${product.id}</td>
 				<td>${product.description}</td>
 				<td><fmt:formatNumber value="${product.price/100}"
-						pattern="￥#.00" type="number" /></td>
+						pattern="Y#0.00" type="number" /></td>
 				<td><a href="prepareForPay?id=${product.id}">立即购买</a></td>
 			</tr>
 		</c:forEach>
