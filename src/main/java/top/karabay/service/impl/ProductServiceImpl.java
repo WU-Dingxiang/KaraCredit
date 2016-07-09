@@ -13,7 +13,7 @@ import com.alibaba.fastjson.JSON;
 import top.karabay.dao.ProductDAO;
 import top.karabay.model.Product;
 import top.karabay.service.ProductService;
-import top.karabay.service.impl.cache.CacheHelper;
+import top.karabay.util.CacheHelper;
 
 @Service("productService")
 public class ProductServiceImpl implements ProductService {

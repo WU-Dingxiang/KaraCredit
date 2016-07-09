@@ -1,4 +1,4 @@
-package top.karabay.service.impl.cache;
+package top.karabay.util;
 
 import java.util.ArrayList;
 import java.util.List;

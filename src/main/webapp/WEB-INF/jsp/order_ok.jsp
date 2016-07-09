@@ -11,12 +11,12 @@
 	<form action="pay" method="get">
 		<table>
 			<tr>
-				<td>商品描述</td>
-				<td>${product.description}</td>
+				<td>订单ID</td>
+				<td>${orderId}</td>
 			</tr>
 			<tr>
 				<td>支付金额</td>
-				<td><fmt:formatNumber value="${product.price/100}"
+				<td><fmt:formatNumber value="${payAmount/100}"
 						pattern="Y#0.00" type="number" /></td>
 			</tr>
 			<tr>

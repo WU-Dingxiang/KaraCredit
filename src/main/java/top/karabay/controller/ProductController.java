@@ -10,8 +10,10 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import top.karabay.model.Product;
+import top.karabay.service.OrderService;
 import top.karabay.service.PayService;
 import top.karabay.service.ProductService;
+import top.karabay.util.StringHelper;
 
 @Controller
 public class ProductController {
@@ -21,6 +23,9 @@ public class ProductController {
 
 	@Resource
 	private PayService payService;
+
+	@Resource
+	private OrderService orderService;
 
 	@RequestMapping("search")
 	public String search(HttpServletRequest request, Model model) {
@@ -36,20 +41,47 @@ public class ProductController {
 		return "failed";
 	}
 
-	@RequestMapping("prepareForPay")
-	public String prepareForPay(HttpServletRequest request, Model model) {
+	@RequestMapping("preOrder")
+	public String preOrder(HttpServletRequest request, Model model) {
 		try {
 			int productId = Integer.valueOf(request.getParameter("id"));
+
 			if (productId != 0) {
+				Product product = productService.getProductById(productId);
+				model.addAttribute("product", product);
+				return "pre_order";
+			}
+
+			model.addAttribute("error", "desc == null");
+			return "failed";
+
+		} catch (Exception ex) {
+			model.addAttribute("error", ex.toString());
+			return "failed";
+		}
+	}
+
+	@RequestMapping("order")
+	public String order(HttpServletRequest request, Model model) {
+		try {
+			// 1- 从request中获取产品ID、送货地址、收货人号码
+			int productId = Integer.valueOf(request.getParameter("id"));
+			String address = request.getParameter("address");
+			String cellphone = request.getParameter("cellphone");
+			int payAmount = Integer.valueOf(request.getParameter("payAmount"));
+
+			// 2- 判断三个
+			if (productId != 0 && !StringHelper.isEmpty(address) && !StringHelper.isEmpty(cellphone)
+					&& payAmount != 0) {
 				boolean available = productService.isAvailable(productId);
 				if (available) {
-					// orderService.order(userId, productId);
-					Product product = productService.getProductById(productId);
-					if (product != null) {
-						model.addAttribute("product", product);
-						return "prepareForPay_ok";
+					int orderId = orderService.create(productId, address, cellphone, payAmount);
+					if (orderId != 0) {
+						model.addAttribute("orderId", orderId);
+						model.addAttribute("payAmount", payAmount);
+						return "order_ok";
 					}
-					model.addAttribute("error", "product == null");
+					model.addAttribute("error", "orderId == 0");
 					return "failed";
 				}
 				model.addAttribute("error", "商品已售罄");
@@ -66,12 +98,11 @@ public class ProductController {
 	@RequestMapping("pay")
 	public String pay(HttpServletRequest request, Model model) {
 		try {
-			int productId = Integer.valueOf(request.getParameter("productId"));
-			int payMount = Integer.valueOf(request.getParameter("payMount"));
-			if (productId != 0 && payMount != 0) {
-				String payAccount = request.getParameter("payAccount");
-				String payPassword = request.getParameter("payPassword");
-				String payResult = payService.pay(payAccount, payPassword, payMount, productId);
+			int orderId = Integer.valueOf(request.getParameter("orderId"));
+			String payAccount = request.getParameter("payAccount");
+			String payPassword = request.getParameter("payPassword");
+			if (orderId != 0 && StringHelper.isEmpty(payAccount) && StringHelper.isEmpty(payPassword)) {
+				String payResult = payService.pay(payAccount, payPassword, orderId);
 				if (payResult != null) {
 					if (payResult.equals("ok")) {
 						model.addAttribute("message", "pay ok");
