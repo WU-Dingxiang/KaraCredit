@@ -21,7 +21,7 @@ public class AccountDAOTest {
 	private AccountDAO accountDAO = null;
 
 	@Test
-	public void test1() {
+	public void test() {
 		Account record = new Account();
 		record.setUsername("a123");
 		record.setPassword("123456");

@@ -25,7 +25,7 @@ public class OrderDAOTest {
 	private OrderDAO orderDAO = null;
 
 	@Test
-	public void test1() {
+	public void test() {
 
 		Order record = new Order();
 		record.setProductId(45654);

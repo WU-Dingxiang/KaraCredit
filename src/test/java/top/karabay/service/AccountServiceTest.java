@@ -19,7 +19,7 @@ public class AccountServiceTest {
 	private AccountService accountService = null;
 
 	@Test
-	public void test1() {
+	public void test() {
 		String payResult;
 
 		payResult = accountService.pay("a123", "123456", 1);

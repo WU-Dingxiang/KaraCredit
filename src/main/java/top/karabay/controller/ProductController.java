@@ -29,24 +29,18 @@ public class ProductController {
 
 	@RequestMapping("search")
 	public String search(HttpServletRequest request, Model model) {
-		try {
-			String productDesc = request.getParameter("desc");
+		String productDesc = request.getParameter("desc");
 
-			// 1. 搜索关键字为空
-			if (productDesc == null) {
-				model.addAttribute("error", "商品描述为空");
-				return "failed";
-			}
-
-			// 2. 根据关键字搜索商品
-			List<Product> productList = productService.getProductListByDesc(productDesc);
-			model.addAttribute("productList", productList);
-			return "product_search_ok";
-
-		} catch (Exception ex) {
-			model.addAttribute("error", ex.toString());
+		// 1. 搜索关键字为空
+		if (productDesc == null) {
+			model.addAttribute("error", "商品描述为空");
 			return "failed";
 		}
+
+		// 2. 根据关键字搜索商品
+		List<Product> productList = productService.getProductListByDesc(productDesc);
+		model.addAttribute("productList", productList);
+		return "product_search_ok";
 	}
 
 	@RequestMapping("preOrder")
@@ -54,9 +48,9 @@ public class ProductController {
 		try {
 			int productId = Integer.valueOf(request.getParameter("id"));
 
-			// 1. 商品ID为空
+			// 1. 商品ID不合法
 			if (productId <= 0) {
-				model.addAttribute("error", "商品ID为空");
+				model.addAttribute("error", "商品ID不合法");
 				return "failed";
 			}
 
@@ -80,9 +74,9 @@ public class ProductController {
 			String address = request.getParameter("address");
 			String cellphone = request.getParameter("cellphone");
 
-			// 2- 商品ID为空
+			// 2- 商品ID不合法
 			if (productId <= 0) {
-				model.addAttribute("error", "商品ID为空");
+				model.addAttribute("error", "商品ID不合法");
 				return "failed";
 			}
 
@@ -136,9 +130,9 @@ public class ProductController {
 			String payAccount = request.getParameter("payAccount");
 			String payPassword = request.getParameter("payPassword");
 
-			// 1- 订单ID为空
+			// 1- 订单ID不合法
 			if (orderId <= 0) {
-				model.addAttribute("error", "订单ID为空");
+				model.addAttribute("error", "订单ID不合法");
 				return "failed";
 			}
 

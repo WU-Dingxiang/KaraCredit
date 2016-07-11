@@ -21,7 +21,7 @@ public class ProductDAOTest {
 	private ProductDAO productDAO = null;
 
 	@Test
-	public void test1() {
+	public void test() {
 		Product product = productDAO.getProductById(1);
 		logger.info(JSON.toJSONString(product));
 	}
