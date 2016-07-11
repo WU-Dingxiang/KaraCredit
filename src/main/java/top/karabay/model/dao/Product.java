@@ -1,15 +1,15 @@
-package top.karabay.model;
+package top.karabay.model.dao;
 
 public class Product {
-    private Integer id;
+    private int id;
     private String description;
-    private Integer price;
+    private int price;
 
-    public Integer getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -21,11 +21,11 @@ public class Product {
         this.description = description == null ? null : description.trim();
     }
 
-    public Integer getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    public void setPrice(Integer price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 }

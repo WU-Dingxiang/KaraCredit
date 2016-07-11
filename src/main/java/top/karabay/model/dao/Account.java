@@ -1,16 +1,16 @@
-package top.karabay.model;
+package top.karabay.model.dao;
 
 public class Account {
-	private Integer id;
+	private int id;
 	private String username;
 	private String password;
-	private Integer balance;
+	private int balance;
 
-	public Integer getId() {
+	public int getId() {
 		return id;
 	}
 
-	public void setId(Integer id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
@@ -30,11 +30,11 @@ public class Account {
         this.password = password == null ? null : password.trim();
 	}
 
-	public Integer getBalance() {
+	public int getBalance() {
 		return balance;
 	}
 
-	public void setBalance(Integer balance) {
+	public void setBalance(int balance) {
 		this.balance = balance;
 	}
 }

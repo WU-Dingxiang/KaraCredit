@@ -29,8 +29,7 @@
 			</tr>
 			<tr>
 				<td><input type="submit" value="确认支付" /></td>
-				<td><input name="productId" type=hidden value="${product.id}" /></td>
-				<td><input name="payMount" type=hidden value="${product.price}" /></td>
+				<td><input name="orderId" type=hidden value="${orderId}" /></td>
 			</tr>
 		</table>
 	</form>

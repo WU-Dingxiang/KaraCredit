@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 import com.alibaba.fastjson.JSON;
 
 import top.karabay.dao.ProductDAO;
-import top.karabay.model.Product;
+import top.karabay.model.dao.Product;
 import top.karabay.service.ProductService;
 import top.karabay.util.CacheHelper;
 
@@ -30,7 +30,7 @@ public class ProductServiceImpl implements ProductService {
 			return cacheProduct;
 		}
 
-		Product daoProduct = productDAO.selectByPrimaryKey(id);
+		Product daoProduct = productDAO.getProductById(id);
 		if (daoProduct != null) {
 			CacheHelper.saveProduct(daoProduct);
 		}
@@ -46,7 +46,7 @@ public class ProductServiceImpl implements ProductService {
 			return cacheProductList;
 		}
 
-		List<Product> daoProductList = productDAO.selectByDescription(productDesc);
+		List<Product> daoProductList = productDAO.getProductListByDescription(productDesc);
 		List<Integer> productIdList = new ArrayList<>();
 		if (daoProductList != null && !daoProductList.isEmpty()) {
 			for (Product daoProduct : daoProductList) {

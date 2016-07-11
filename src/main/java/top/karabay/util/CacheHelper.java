@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import top.karabay.model.Product;
+import top.karabay.model.dao.Product;
 
 public class CacheHelper {
 	private static final Map<Integer, Product> productCache = new ConcurrentHashMap<>();

@@ -1,6 +1,6 @@
 package top.karabay.service;
 
-import top.karabay.model.Order;
+import top.karabay.model.dao.Order;
 
 public interface OrderService {
 
@@ -8,5 +8,7 @@ public interface OrderService {
 
 	Order getOrderById(int orderId);
 
-	void finish(int orderId);
+	int finish(int orderId);
+
+	boolean isFinished(int orderId);
 }

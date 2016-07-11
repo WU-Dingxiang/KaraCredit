@@ -2,11 +2,11 @@ package top.karabay.dao;
 
 import java.util.List;
 
-import top.karabay.model.Product;
+import top.karabay.model.dao.Product;
 
 public interface ProductDAO {
 
-	Product selectByPrimaryKey(Integer id);
+	Product getProductById(int id);
 
-	List<Product> selectByDescription(String productDesc);
+	List<Product> getProductListByDescription(String productDesc);
 }

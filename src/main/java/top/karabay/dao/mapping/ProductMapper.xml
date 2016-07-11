@@ -3,8 +3,8 @@
 <mapper namespace="top.karabay.dao.ProductDAO">
 
 	<!-- BaseResultMap -->
-	<resultMap id="BaseResultMap" type="top.karabay.model.Product">
-		<id column="ID" property="id" jdbcType="INTEGER" />
+	<resultMap id="BaseResultMap" type="top.karabay.model.dao.Product">
+		<id column="id" property="id" jdbcType="INTEGER" />
 		<result column="description" property="description" jdbcType="VARCHAR" />
 		<result column="price" property="price" jdbcType="INTEGER" />
 	</resultMap>
@@ -14,22 +14,22 @@
 		ID, description, price
 	</sql>
 
-	<!-- selectByDescription -->
-	<select id="selectByDescription" resultMap="BaseResultMap"
+	<!-- getProductListByDescription -->
+	<select id="getProductListByDescription" resultMap="BaseResultMap"
 		parameterType="java.lang.String">
 		select
 		<include refid="Base_Column_List" />
-		from product
+		from product_t
 		where description like
 		"%"#{description,jdbcType=VARCHAR}"%"
 	</select>
 
-	<!-- selectByPrimaryKey -->
-	<select id="selectByPrimaryKey" resultMap="BaseResultMap"
+	<!-- getProductById -->
+	<select id="getProductById" resultMap="BaseResultMap"
 		parameterType="java.lang.Integer">
 		select
 		<include refid="Base_Column_List" />
-		from product
+		from product_t
 		where ID = #{id,jdbcType=INTEGER}
 	</select>
 </mapper>

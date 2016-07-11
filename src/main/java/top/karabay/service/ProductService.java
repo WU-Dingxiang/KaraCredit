@@ -2,7 +2,7 @@ package top.karabay.service;
 
 import java.util.List;
 
-import top.karabay.model.Product;
+import top.karabay.model.dao.Product;
 
 public interface ProductService {
 	public Product getProductById(int id);

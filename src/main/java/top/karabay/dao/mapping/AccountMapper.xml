@@ -3,8 +3,8 @@
 <mapper namespace="top.karabay.dao.AccountDAO">
 
 	<!-- BaseResultMap -->
-	<resultMap id="BaseResultMap" type="top.karabay.model.Account">
-		<id column="ID" property="id" jdbcType="INTEGER" />
+	<resultMap id="BaseResultMap" type="top.karabay.model.dao.Account">
+		<id column="id" property="id" jdbcType="INTEGER" />
 		<result column="username" property="username" jdbcType="VARCHAR" />
 		<result column="password" property="password" jdbcType="VARCHAR" />
 		<result column="balance" property="balance" jdbcType="INTEGER" />
@@ -15,25 +15,24 @@
 		ID, username, password, balance
 	</sql>
 
-	<!-- selectByAccount -->
-	<select id="selectByAccount" parameterType="top.karabay.model.Account"
+	<!-- getBalanceByAccount -->
+	<select id="getBalanceByAccount" parameterType="top.karabay.model.dao.Account"
 		resultType="java.lang.Integer">
 		select balance
-		from account
+		from account_t
 		where username =
 		#{username,jdbcType=VARCHAR}
 		and password =
 		#{password,jdbcType=VARCHAR}
 	</select>
 
-	<!-- updateByAccount -->
-	<select id="updateByAccount" parameterType="top.karabay.model.Account"
-		resultType="java.lang.Integer">
-		update account
+	<!-- updateBalanceByAccount -->
+	<update id="updateBalanceByAccount" parameterType="top.karabay.model.dao.Account">
+		update account_t
 		set balance = #{balance,jdbcType=INTEGER}
 		where username =
 		#{username,jdbcType=VARCHAR}
 		and password =
 		#{password,jdbcType=VARCHAR}
-	</select>
+	</update>
 </mapper>

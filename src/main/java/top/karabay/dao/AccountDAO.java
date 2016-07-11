@@ -1,9 +1,9 @@
 package top.karabay.dao;
 
-import top.karabay.model.Account;
+import top.karabay.model.dao.Account;
 
 public interface AccountDAO {
-	Integer selectByAccount(Account record);
+	Integer getBalanceByAccount(Account record);
 
-	Integer updateByAccount(Account record);
+	int updateBalanceByAccount(Account record);
 }

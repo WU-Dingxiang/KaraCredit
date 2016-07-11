@@ -10,7 +10,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
 
-import top.karabay.model.Product;
+import top.karabay.model.dao.Product;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:spring-mybatis.xml" })
@@ -22,7 +22,7 @@ public class ProductDAOTest {
 
 	@Test
 	public void test1() {
-		Product product = productDAO.selectByPrimaryKey(1);
+		Product product = productDAO.getProductById(1);
 		logger.info(JSON.toJSONString(product));
 	}
 }
