@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="karabay-1.0.0">
+    <wb-module deploy-name="karacredit-1.0.0">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <property name="java-output-path" value="/karabay/target/classes"/>
-        <property name="context-root" value="karabay"/>
+        <property name="java-output-path" value="/KaraCredit/target/classes"/>
+        <property name="context-root" value="karacredit"/>
     </wb-module>
 </project-modules>
