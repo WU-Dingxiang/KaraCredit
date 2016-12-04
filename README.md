@@ -1,2 +1,2 @@
-# karacredit - A Online Shopping Website by Java
-The karacredit online website makes it easier to enjoy your shopping time.
+# karacredit - A Online Microcredit Website by Java
+The karacredit online website makes it easier to start your business.
