@@ -5,16 +5,16 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>测试</title>
+<title>小额贷款 - 申请人主界面</title>
 </head>
 <body>
-	<form action="search" method="get">
-		<table>
-			<tr>
-				<td><input type="text" name="desc" /></td>
-				<td><input type="submit" value="搜索" /></td>
-			</tr>
-		</table>
-	</form>
+	<table>
+		<tr>
+			<td><a href="#">信息录入</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">判别结果</a></td>
+		</tr>
+	</table>
 </body>
 </html>

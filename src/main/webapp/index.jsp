@@ -1,4 +1,4 @@
 
 <%
-	request.getRequestDispatcher("/WEB-INF/jsp/search.jsp").forward(request, response);
+	request.getRequestDispatcher("/WEB-INF/jsp/auth_login.jsp").forward(request, response);
 %>

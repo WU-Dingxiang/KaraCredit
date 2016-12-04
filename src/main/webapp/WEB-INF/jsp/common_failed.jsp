@@ -4,7 +4,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>测试</title>
+<title>操作出错</title>
 </head>
 <body>${error}
 </body>

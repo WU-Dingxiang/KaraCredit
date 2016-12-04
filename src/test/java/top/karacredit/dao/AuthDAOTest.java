@@ -1,4 +1,4 @@
-package top.karacredit.service;
+package top.karacredit.dao;
 
 import javax.annotation.Resource;
 
@@ -10,19 +10,19 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import com.alibaba.fastjson.JSON;
 
-import top.karacredit.model.dao.Product;
+import top.karacredit.model.dao.Auth;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "classpath:spring-mybatis.xml" })
-public class ProductServiceTest {
-	private static Logger logger = Logger.getLogger(ProductServiceTest.class);
+public class AuthDAOTest {
+	private static Logger logger = Logger.getLogger(AuthDAOTest.class);
 
 	@Resource
-	private ProductService productService = null;
+	private AuthDAO authDAO = null;
 
 	@Test
-	public void test1() {
-		Product product = productService.getProductById(1);
-		logger.info(JSON.toJSONString(product));
+	public void test() {
+		Auth auth = authDAO.getAuthByPhone("13647449504");
+		logger.info(JSON.toJSONString(auth));
 	}
 }

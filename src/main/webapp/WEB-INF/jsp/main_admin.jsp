@@ -5,8 +5,19 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-<title>测试</title>
+<title>小额贷款 - 管理员主界面</title>
 </head>
-<body>${message}
+<body>
+	<table>
+		<tr>
+			<td><a href="#">批量录入</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">配置管理</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">判别报表</a></td>
+		</tr>
+	</table>
 </body>
 </html>

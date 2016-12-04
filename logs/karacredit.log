@@ -1,0 +1,286 @@
+[INFO] [2016-12-04 13:18:11][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:18:12][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:18:12 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:18:12][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:18:12][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:18:13][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:18:12 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:19:24][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:19:24][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:19:24 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:19:24][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:19:24][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:19:25][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:19:24 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:20:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:20:19][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:20:19 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:20:19][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:20:19][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:20:20][top.karacredit.dao.AuthDAOTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 13:20:20][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:20:19 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:20:37][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:20:37][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:20:37 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:20:37][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:20:37][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:20:38][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 13:20:38][top.karacredit.service.AuthServiceTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 13:20:38][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:20:37 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:20:53][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:20:53][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:20:53 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:20:53][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:20:53][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:20:54][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 13:20:54][top.karacredit.service.AuthServiceTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 13:20:54][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@783e6358: startup date [Sun Dec 04 13:20:53 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:40:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:40:32][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:40:32 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:40:33][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:40:33][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_captcha_ok
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]pageNameOK = failed
+[INFO] [2016-12-04 13:40:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:40:33][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:40:32 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:40:54][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:40:54][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:40:54 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:40:54][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:40:54][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_captcha_ok
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]pageNameOK = failed
+[INFO] [2016-12-04 13:40:54][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:40:54][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:40:54 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:43:16][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:43:16][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:43:16 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:43:16][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:43:16][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_captcha_ok
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]pageNameOK = failed
+[INFO] [2016-12-04 13:43:16][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码错误"}
+[INFO] [2016-12-04 13:43:16][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@735f7ae5: startup date [Sun Dec 04 13:43:16 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:44:00][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:44:00][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 13:44:00 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:44:00][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:44:00][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:44:00][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:44:00][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:44:00][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_captcha_ok
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 13:44:01][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 13:58:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:58:36][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 13:58:36 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:58:36][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:58:36][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:58:37][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:58:37][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:58:37][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:58:37][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:58:37][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:59:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:59:19][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 13:59:19 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:59:19][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:59:19][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:59:19][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:59:19][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:59:19][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:59:19][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:59:19][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:59:34][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 13:59:34][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 13:59:34 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 13:59:34][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 13:59:34][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 13:59:34][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 13:59:34][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 13:59:34][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_captcha_ok
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]pageNameOK = failed
+[INFO] [2016-12-04 13:59:35][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码错误"}
+[INFO] [2016-12-04 13:59:35][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 13:59:34 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:02:32][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 14:02:32][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 14:02:32 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:02:32][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 14:02:32][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_captcha_ok
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]captchaFail = failed
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码错误"}
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码通过 ***************************
+[INFO] [2016-12-04 14:02:33][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_admin_main
+[INFO] [2016-12-04 14:02:33][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:02:33][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 14:02:32 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:05:02][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 14:05:02][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 14:05:02 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:05:02][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 14:05:02][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK [admin] ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]adminOK = auth_captcha_ok
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK [applicant] ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]applicantOK = auth_captcha_ok
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]pageNameFailed = failed
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]captchaFail = failed
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码错误"}
+[INFO] [2016-12-04 14:05:02][top.karacredit.controller.AuthControllerTest]************************ test_login 管理员验证码通过 ***************************
+[INFO] [2016-12-04 14:05:03][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:05:03][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_admin_main
+[INFO] [2016-12-04 14:05:03][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:05:03][top.karacredit.controller.AuthControllerTest]************************ test_login 申请人验证码通过 ***************************
+[INFO] [2016-12-04 14:05:03][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":1,"id":2,"phone":"15073923998"}
+[INFO] [2016-12-04 14:05:03][top.karacredit.controller.AuthControllerTest]pageNameOK = auth_applicant_main
+[INFO] [2016-12-04 14:05:03][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:05:03][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@145eaa29: startup date [Sun Dec 04 14:05:02 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:44:51][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 14:44:51][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@246ae04d: startup date [Sun Dec 04 14:44:51 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:44:51][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 14:44:51][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]pageNameFailed = common_failed
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK [admin] ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]adminOK = [ajax]
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]asMap = {"error":""}
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK [applicant] ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]applicantOK = [ajax]
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]asMap = {"error":""}
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]pageNameFailed = common_failed
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]pageNameFailed = common_failed
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]captchaFail = common_failed
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码错误"}
+[INFO] [2016-12-04 14:44:51][top.karacredit.controller.AuthControllerTest]************************ test_login 管理员验证码通过 ***************************
+[INFO] [2016-12-04 14:44:52][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:44:52][top.karacredit.controller.AuthControllerTest]pageNameOK = main_admin
+[INFO] [2016-12-04 14:44:52][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:44:52][top.karacredit.controller.AuthControllerTest]************************ test_login 申请人验证码通过 ***************************
+[INFO] [2016-12-04 14:44:52][top.karacredit.service.impl.AuthServiceImpl]daoProduct = {"authType":1,"id":2,"phone":"15073923998"}
+[INFO] [2016-12-04 14:44:52][top.karacredit.controller.AuthControllerTest]pageNameOK = main_applicant
+[INFO] [2016-12-04 14:44:52][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:44:52][top.karacredit.dao.AuthDAOTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:44:52][top.karacredit.service.impl.AuthServiceImpl]cacheProduct = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:44:52][top.karacredit.service.AuthServiceTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:44:52][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@246ae04d: startup date [Sun Dec 04 14:44:51 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:47:22][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+[INFO] [2016-12-04 14:47:22][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@246ae04d: startup date [Sun Dec 04 14:47:22 CST 2016]; root of context hierarchy
+[INFO] [2016-12-04 14:47:22][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc_3306.properties]
+[INFO] [2016-12-04 14:47:22][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_captcha ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_captcha 参数为空 ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]pageNameFailed = common_failed
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK [admin] ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]adminOK = [ajax]
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {"error":""}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_captcha OK [applicant] ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]applicantOK = [ajax]
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {"error":""}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_login ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_login 手机号为空 ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]pageNameFailed = common_failed
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {"error":"手机号为空"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码为空 ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]pageNameFailed = common_failed
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码为空"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_login 验证码错误 ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]captchaFail = common_failed
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {"error":"验证码错误"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_login 管理员验证码通过 ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.service.impl.AuthServiceImpl]daoEntity = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]pageNameOK = main_admin
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]************************ test_login 申请人验证码通过 ***************************
+[INFO] [2016-12-04 14:47:23][top.karacredit.service.impl.AuthServiceImpl]daoEntity = {"authType":1,"id":2,"phone":"15073923998"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]pageNameOK = main_applicant
+[INFO] [2016-12-04 14:47:23][top.karacredit.controller.AuthControllerTest]asMap = {}
+[INFO] [2016-12-04 14:47:23][top.karacredit.dao.AuthDAOTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.service.impl.AuthServiceImpl]cacheEntity = {"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:47:23][top.karacredit.service.AuthServiceTest]{"authType":0,"id":1,"phone":"13647449504"}
+[INFO] [2016-12-04 14:47:23][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@246ae04d: startup date [Sun Dec 04 14:47:22 CST 2016]; root of context hierarchy

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="top.karacredit.dao.AuthDAO">
+
+	<!-- BaseResultMap -->
+	<resultMap id="BaseResultMap" type="top.karacredit.model.dao.Auth">
+		<id column="id" property="id" jdbcType="INTEGER" />
+		<result column="phone" property="phone" jdbcType="VARCHAR" />
+		<result column="authType" property="authType" jdbcType="INTEGER" />
+	</resultMap>
+
+	<!-- Base_Column_List -->
+	<sql id="Base_Column_List">
+		id, phone, authType
+	</sql>
+
+	<!-- getProductById -->
+	<select id="getAuthByPhone" resultMap="BaseResultMap"
+		parameterType="java.lang.String">
+		select
+		<include refid="Base_Column_List" />
+		from auth_t
+		where phone = #{id,jdbcType=INTEGER}
+	</select>
+</mapper>
