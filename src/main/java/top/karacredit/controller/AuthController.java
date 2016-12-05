@@ -28,42 +28,6 @@ public class AuthController {
 		return captchaMap.get(phone);
 	}
 
-	@RequestMapping("admin_batchInfo")
-	public String admin_batchInfo(HttpServletRequest request, Model model) {
-		return "admin_batchInfo";
-
-	}
-
-	@RequestMapping("admin_valuationLog")
-	public String admin_valuationLog(HttpServletRequest request, Model model) {
-		return "admin_valuationLog";
-
-	}
-
-	@RequestMapping("admin_config")
-	public String admin_config(HttpServletRequest request, Model model) {
-		return "admin_config";
-
-	}
-
-	@RequestMapping("applicant_info")
-	public String applicant_info(HttpServletRequest request, Model model) {
-		return "applicant_info";
-
-	}
-
-	@RequestMapping("applicant_loanResult")
-	public String applicant_loanResult(HttpServletRequest request, Model model) {
-		return "applicant_loanResult";
-
-	}
-
-	@RequestMapping("logout")
-	public String logout(HttpServletRequest request, Model model) {
-		return "auth_login";
-
-	}
-
 	@RequestMapping("captcha")
 	public String captcha(HttpServletRequest request, Model model) {
 		String phone = request.getParameter("phone");
