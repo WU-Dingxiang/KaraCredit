@@ -15,7 +15,7 @@
 			strokeColor : "rgba(151,187,205,1)",
 			pointColor : "rgba(151,187,205,1)",
 			pointStrokeColor : "#fff",
-			data : [ 91, 89, 90, 81, 86, 95 ]
+			data : [ 100, 100, 100, 100, 100, 100 ]
 		} ]
 	};
 
@@ -28,9 +28,9 @@
 
 <body>
 	<canvas id="myChart" width="400" height="400"></canvas>
-	<li>综合评分：93.4</li>
-	<li>信用评价：极好</li>
-	<li>贷款结果：通过</li>
-	<li>贷款额度：1000,000.00[壹佰万元整]</li>
+	<li>综合评分：0.00</li>
+	<li>信用评价：[null]</li>
+	<li>贷款结果：[null]</li>
+	<li>贷款额度：[人民币]0.00[null]</li>
 </body>
 </html>

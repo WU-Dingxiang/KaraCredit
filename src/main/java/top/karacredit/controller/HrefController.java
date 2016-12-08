@@ -27,6 +27,30 @@ public class HrefController {
 
 	}
 
+	@RequestMapping("admin_config_index")
+	public String admin_config_index(HttpServletRequest request, Model model) {
+		return "admin_config_index";
+
+	}
+
+	@RequestMapping("admin_config_indexWeight")
+	public String admin_config_indexWeight(HttpServletRequest request, Model model) {
+		return "admin_config_indexWeight";
+
+	}
+
+	@RequestMapping("admin_config_scorePolicy")
+	public String admin_config_scorePolicy(HttpServletRequest request, Model model) {
+		return "admin_config_scorePolicy";
+
+	}
+
+	@RequestMapping("admin_config_loanPolicy")
+	public String admin_config_loanPolicy(HttpServletRequest request, Model model) {
+		return "admin_config_loanPolicy";
+
+	}
+
 	@RequestMapping("applicant_info")
 	public String applicant_info(HttpServletRequest request, Model model) {
 		return "applicant_info";
