@@ -6,13 +6,15 @@
 <html>
 <head>
 <title>小额贷款 - 申请人主界面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Cache" content="no-cache">
 <link rel="stylesheet" type="text/css" href="css/main.css" />
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
 </head>
-<body>
-	<table>
-		<tr>
-		</tr>
-	</table>
 </body>
 <body id="homefirst">
 	<div id="wrapper">
@@ -29,8 +31,8 @@
 
 		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
 		<div id="footer">
-			<div id="copyright">©2016 中南大学铁路信息技术工程研究所 版权所有</div>
-			<div id="contact">联系方式：wdx2014@mail.csu.edu.cn</div>
+			<div id="copyright">©2016 重庆市小额贷款信息技术工程研究所 版权所有</div>
+			<div id="contact">联系方式：microcredit@ciit.cn</div>
 		</div>
 		<!-- ************************* -->
 

@@ -8,5 +8,5 @@ public interface DataProcessService {
 	boolean gtm(SourceData data, SourceDataItem item);
 	SourceData gatherProperty(SourceData data);
 	SourceData progressiveSample(SourceData data);
-	// int dataManage(SourceData data);
+	SourceData collectData(SourceData data);
 }

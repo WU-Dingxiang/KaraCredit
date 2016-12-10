@@ -1,5 +1,6 @@
 package top.karacredit.service.impl;
 
+import java.util.List;
 import java.util.Random;
 
 import org.springframework.stereotype.Service;
@@ -70,5 +71,12 @@ public class DataProcessServiceImpl implements DataProcessService {
 			data.setM0(M0);
 		}
 		return data;
+	}
+
+	@Override
+	public SourceData collectData(SourceData data) {
+		List<SourceDataItem> targetIndexes = data.getTargetIndexes();
+		SourceData newData = data.indexFilter(data, targetIndexes);
+		return newData;
 	}
 }

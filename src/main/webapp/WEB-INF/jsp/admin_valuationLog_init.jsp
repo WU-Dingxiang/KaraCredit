@@ -31,128 +31,128 @@
 		<tr>
 			<td>1</td>
 			<td>名称地址规范</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>2</td>
 			<td>注册资本</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>3</td>
 			<td>行业景气</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>4</td>
 			<td>组织/所有权结构</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>5</td>
 			<td>有效经营年限</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>6</td>
 			<td>三月内财务报表</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>7</td>
 			<td>其他关键财务</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>8</td>
 			<td>产品生产特征</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>9</td>
 			<td>产品品质特征</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>10</td>
 			<td>产品市场需求</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>11</td>
 			<td>产品竞争特征</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>12</td>
 			<td>产品用户特征</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>13</td>
 			<td>账款催收记录</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>14</td>
 			<td>销售变现天数</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>15</td>
 			<td>付款异常</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>16</td>
 			<td>同行信用记录</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>17</td>
 			<td>主管个人信用</td>
-			<td>0.00</td>
-			<td>0.00</td>
-			<td>0.00</td>
+			<td></td>
+			<td></td>
+			<td></td>
 		</tr>
 		<tr>
 			<th>18</th>
 			<th>合计</th>
 			<th>——</th>
-			<th>0.00</th>
-			<th>0.00</th>
+			<th></th>
+			<th></th>
 		</tr>
 	</table>
 </body>

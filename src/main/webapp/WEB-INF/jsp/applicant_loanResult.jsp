@@ -27,10 +27,16 @@
 </head>
 
 <body>
-	<canvas id="myChart" width="400" height="400"></canvas>
-	<li>综合评分：0.00</li>
-	<li>信用评价：[null]</li>
-	<li>贷款结果：[null]</li>
-	<li>贷款额度：[人民币]0.00[null]</li>
+	<table>
+		<tr>
+			<td><canvas id="myChart" width="400" height="400"></canvas></td>
+			<td style='width:200px'>
+				<li>综合评分：0.00</li>
+				<li>信用评价：[null]</li>
+				<li>贷款结果：[null]</li>
+				<li>贷款额度：[人民币]0.00[null]</li>
+			<td>
+		</tr>
+	</table>
 </body>
 </html>

@@ -39,6 +39,42 @@ div#navfirst ul#menu li {
 	cursor: pointer;
 }
 
+li#selected {
+	padding-top: 4px;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: #FFFFFF;
+	background-color: #4682B4
+}
+
+div#display {
+	height: 448px;
+	background-image: url("http://localhost:8080/karacredit/img/body.jpg");
+}
+
+table {
+	margin: 0 auto; /*<<*/
+	margin-top: 30px;
+	text-align: left; /*>>*/
+}
+
+table td input {
+	font-family: '微软雅黑';
+	font-size: 17px;
+	border-width: 2px;
+}
+
+table td input[type="text"],input[type="password"] {
+	border-style:inset;
+	margin:5px 10px;
+}
+
+table td input[type="submit"] {
+	border-style:outset;
+	margin:10px 10px;
+	width: 80px;
+}
+
 div#footer {
 	margin-top: 30px;
 	margin-bottom: 10px;

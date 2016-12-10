@@ -86,4 +86,14 @@ public class SourceData {
 		// TODO Auto-generated method stub
 		
 	}
+
+	public List<SourceDataItem> getTargetIndexes() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public SourceData indexFilter(SourceData data, List<SourceDataItem> targetIndexes) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

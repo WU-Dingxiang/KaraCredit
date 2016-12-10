@@ -27,6 +27,18 @@ public class HrefController {
 
 	}
 
+	@RequestMapping("admin_valuationLog_init")
+	public String admin_valuationLog_init(HttpServletRequest request, Model model) {
+		return "admin_valuationLog_init";
+
+	}
+
+	@RequestMapping("admin_valuationLog_sum")
+	public String admin_valuationLog_sum(HttpServletRequest request, Model model) {
+		return "admin_valuationLog_sum";
+
+	}
+
 	@RequestMapping("admin_config")
 	public String admin_config(HttpServletRequest request, Model model) {
 		return "admin_config";

@@ -1,16 +1,19 @@
 package top.karacredit.controller;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import top.karacredit.service.ValuationLogService;
+
 @Controller
 public class ValuationLogController {
 
-	// @Resource
-	// private ValuationLogService valuationLogService;
+	@Resource
+	private ValuationLogService valuationLogService;
 
 	@RequestMapping("valuationLog")
 	public String valuationLog(HttpServletRequest request, Model model) {
@@ -24,7 +27,8 @@ public class ValuationLogController {
 
 		// 2. 获取判别日志JSON包
 		String valuationLog = "";
-		// valuationLog = valuationLogService.getLogById();
+		
+		valuationLog = valuationLogService.getLogById();
 
 		return valuationLog;
 	}
