@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class HrefController {
 
+	@RequestMapping("admin")
+	public String admin(HttpServletRequest request, Model model) {
+		return "admin";
+
+	}
+
 	@RequestMapping("admin_batchInfo")
 	public String admin_batchInfo(HttpServletRequest request, Model model) {
 		return "admin_batchInfo";
@@ -48,6 +54,12 @@ public class HrefController {
 	@RequestMapping("admin_config_loanPolicy")
 	public String admin_config_loanPolicy(HttpServletRequest request, Model model) {
 		return "admin_config_loanPolicy";
+
+	}
+
+	@RequestMapping("applicant")
+	public String applicant(HttpServletRequest request, Model model) {
+		return "applicant";
 
 	}
 

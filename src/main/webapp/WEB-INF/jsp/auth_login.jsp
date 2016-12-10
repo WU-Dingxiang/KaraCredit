@@ -18,6 +18,13 @@
 				<td><input type="button" value="发送动态密码" /></td>
 			</tr>
 			<tr>
+				<td><select placeholder="请输入手机号">
+						<option value='' disabled selected style='display: none;'>请选择权限类型</option>
+						<option value="admin">管理员</option>
+						<option value="applicant">申请人</option>
+				</select></td>
+			</tr>
+			<tr>
 				<td><input type="submit" value="登录" /></td>
 			</tr>
 		</table>

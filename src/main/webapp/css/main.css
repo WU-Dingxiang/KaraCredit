@@ -1,0 +1,59 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body#homefirst {
+	font-family: '微软雅黑';
+	font-size: 18px;
+	text-align: center; /*>>*/
+}
+
+div#wrapper {
+	margin: 0 auto; /*<<*/
+	width: 1100px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: outset;
+	border-width: 3px;
+}
+
+div#header_index {
+	height: 134px;
+	background-image: url("http://localhost:8080/karacredit/img/logo.jpg");
+}
+
+div#navfirst {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+div#navfirst ul#menu li {
+	padding-bottom: 5px;
+	display: inline;
+	margin: 15px;
+	border-bottom-color: red;
+	border-bottom-style: solid;
+	border-bottom-width: 0px;
+	cursor: pointer;
+}
+
+div#footer {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	background-color: #EFEFEF;
+	padding: 10px;
+}
+
+div#footer div#copyright {
+	padding-top: 10px;
+	padding-bottom: 5px;
+	font-size: 16px;
+}
+
+div#footer div#contact {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	font-size: 15px;
+}

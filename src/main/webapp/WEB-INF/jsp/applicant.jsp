@@ -6,18 +6,34 @@
 <html>
 <head>
 <title>小额贷款 - 申请人主界面</title>
+<link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
 	<table>
 		<tr>
-			<td><a href="applicant_info">信息录入</a></td>
-		</tr>
-		<tr>
-			<td><a href="applicant_loanResult">判别结果</a></td>
-		</tr>
-		<tr>
-			<td><a href="logout">注销</a></td>
 		</tr>
 	</table>
+</body>
+<body id="homefirst">
+	<div id="wrapper">
+		<div id="header_index"></div>
+		<div id="navfirst">
+			<ul id="menu">
+				<li>信息录入</li>
+				<li>贷款申请</li>
+				<li>判别结果查询</li>
+				<li>账号注销</li>
+			</ul>
+		</div>
+		<div id="display"></div>
+
+		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
+		<div id="footer">
+			<div id="copyright">©2016 中南大学铁路信息技术工程研究所 版权所有</div>
+			<div id="contact">联系方式：wdx2014@mail.csu.edu.cn</div>
+		</div>
+		<!-- ************************* -->
+
+	</div>
 </body>
 </html>

@@ -14,12 +14,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import top.karacredit.model.dao.Auth;
 import top.karacredit.model.enums.AuthType;
 import top.karacredit.service.AuthService;
+import top.karacredit.service.SmsService;
 
 @Controller
 public class AuthController {
 
 	@Resource
 	private AuthService authService;
+
+	@Resource
+	private SmsService smsService;
 
 	private ConcurrentHashMap<String, String> captchaMap = new ConcurrentHashMap<>();
 	private Random random = new Random();
@@ -38,10 +42,10 @@ public class AuthController {
 			return "common_failed";
 		}
 
-		// 2. 生成动态密码
-		String captcha = String.valueOf(random.nextInt(10000));
-		System.out.println(captcha);
-		captchaMap.put(phone, captcha);
+		// 2. 动态密码
+		String captcha = String.valueOf(random.nextInt(10000));//生成
+		smsService.sendCaptcha(captcha);//发送
+		captchaMap.put(phone, captcha);//缓存
 
 		// 3. 返回数据
 		model.addAttribute("error", "");
