@@ -21,6 +21,12 @@ public class HrefController {
 
 	}
 
+	@RequestMapping("admin_loanLog")
+	public String admin_loanLog(HttpServletRequest request, Model model) {
+		return "admin_loanLog";
+
+	}
+
 	@RequestMapping("admin_valuationLog")
 	public String admin_valuationLog(HttpServletRequest request, Model model) {
 		return "admin_valuationLog";

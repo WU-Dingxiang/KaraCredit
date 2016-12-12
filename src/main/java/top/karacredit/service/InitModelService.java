@@ -1,6 +1,7 @@
 package top.karacredit.service;
 
+import top.karacredit.model.dao.SourceData;
+
 public interface InitModelService {
-	void completeIndex();
-	void checkIndex();
+	public SourceData completeAndCheckIndex(SourceData applicantData, SourceData validData) ;
 }

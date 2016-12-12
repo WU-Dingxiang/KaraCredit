@@ -12,6 +12,10 @@ public class SourceData {
 	public int e;
 	public int deltaM;
 
+	public SourceData(List<SourceDataItem> newItems) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public boolean hasMissingItems() {
 		// TODO Auto-generated method stub
 		return false;

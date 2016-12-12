@@ -8,18 +8,7 @@
 <title>小额贷款 - 判别日志界面</title>
 </head>
 <body>
-	<h1>小额贷款信用判别日志</h1>
-	<table border='0'>
-		<tr>
-			<td>企业名称</td>
-			<td>_________</td>
-			<td>性质
-			</th>
-			<td>_________</td>
-			<td>测定日期</td>
-			<td>_________</td>
-		</tr>
-	</table>
+	<h1>累和模型阶段的数据包报表</h1>
 	<table border='1'>
 		<tr>
 			<th>序号</th>

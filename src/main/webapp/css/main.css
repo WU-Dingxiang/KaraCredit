@@ -58,21 +58,21 @@ table {
 	text-align: left; /*>>*/
 }
 
-table td input {
+table td input,select {
 	font-family: '微软雅黑';
 	font-size: 17px;
 	border-width: 2px;
 }
 
-table td input[type="text"],input[type="password"] {
+table td input[type="text"],select {
 	border-style:inset;
 	margin:5px 10px;
 }
 
-table td input[type="submit"] {
+table td input[type="submit"],input[type="button"] {
 	border-style:outset;
 	margin:10px 10px;
-	width: 80px;
+	width: 180px;
 }
 
 div#footer {
