@@ -22,8 +22,15 @@
 				<li>账号注销</li>
 			</ul>
 		</div>
+		<div id="navfirst">
+			<ul id="menu">
+				<li>设定指标</li>
+				<li>设定得分策略</li>
+				<li id='selected'>设定指标权重</li>
+				<li>设定贷款策略</li>
+			</ul>
+		</div>
 		<div id="displayx">
-			<h4>设定指标权重</h4>
 			<table border='0'>
 				<tr>
 					<td>企业名称</td>

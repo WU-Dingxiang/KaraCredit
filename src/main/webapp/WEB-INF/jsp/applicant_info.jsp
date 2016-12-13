@@ -28,7 +28,7 @@
 			</ul>
 		</div>
 		<div id="displayx">
-			<table>
+			<table style='margin-left: 200px;margin-bottom: 500px'>
 				<tr>
 					<th>企业信息</th>
 				</tr>
@@ -71,6 +71,8 @@
 					<td>营业执照</td>
 					<td><input type="file" name="file" /></td>
 				</tr>
+			</table>
+			<table>
 				<tr>
 					<th>营业信息</th>
 				</tr>
@@ -116,10 +118,10 @@
 		</div>
 
 		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
-		<div id="footer">
+		<!--<div id="footer">
 			<div id="copyright">©2016 重庆市小额贷款信息技术工程研究所 版权所有</div>
 			<div id="contact">联系方式：microcredit@ciit.cn</div>
-		</div>
+		</div>-->
 		<!-- ************************* -->
 
 	</div>

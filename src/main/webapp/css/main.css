@@ -12,7 +12,7 @@ body#homefirst {
 
 div#wrapper {
 	margin: 0 auto; /*<<*/
-	width: 1100px;
+	width: 1500px;
 	padding-left: 10px;
 	padding-right: 10px;
 	border-style: outset;
@@ -45,6 +45,10 @@ li#selected {
 	padding-right: 5px;
 	color: #FFFFFF;
 	background-color: #4682B4
+}
+
+div#displayx table {
+	float: left;
 }
 
 div#display {
