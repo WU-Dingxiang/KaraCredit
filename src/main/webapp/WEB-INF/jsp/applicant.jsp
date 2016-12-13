@@ -26,8 +26,8 @@
 
 		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
 		<div id="footer">
-			<div id="copyright">©2016 重庆市小额贷款信息技术工程研究所 版权所有</div>
-			<div id="contact">联系方式：microcredit@ciit.cn</div>
+			<div id="copyright">©2016 XXX 版权所有</div>
+			<div id="contact">联系方式：xxx@xx.cn</div>
 		</div>
 		<!-- ************************* -->
 

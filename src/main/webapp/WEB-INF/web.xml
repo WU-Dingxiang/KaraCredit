@@ -58,6 +58,10 @@
 		<servlet-name>default</servlet-name>
 		<url-pattern>*.ico</url-pattern>
 	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>*.png</url-pattern>
+	</servlet-mapping>
 	<!-- 拦截所有请求 -->
 	<servlet-mapping>
 		<servlet-name>SpringMVC</servlet-name>

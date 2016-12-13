@@ -14,19 +14,25 @@
 	<div id="wrapper">
 		<div id="header_index"></div>
 		<div id="navfirst">
-			<ul id="menu">
-				<li>客户信息录入</li>
-				<li>系统参数设置</li>
-				<li>判别报表读取</li>
-				<li>账号注销</li>
-			</ul>
+			<table id="menux">
+				<tr>
+					<td><img src="http://www.icosky.com/icon/png/System/Scrap/Administrator%202.png"></td>
+					<td style='background-color: #4682B4;'>客户信息录入</td>
+					<td style='background-color: #4682B4;'>系统参数设置</td>
+				</tr>
+				<tr>
+					<td style='background-color: #4682B4;'>判别报表读取</td>
+					<td style='background-color: #4682B4;'>贷款结果报表读取</td>
+					<td style='background-color: red;'>账号注销</td>
+				</tr>
+			</table>
 		</div>
-		<div id="display"></div>
+		<div id="displayx"></div>
 
 		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
 		<div id="footer">
-			<div id="copyright">©2016 重庆市小额贷款信息技术工程研究所 版权所有</div>
-			<div id="contact">联系方式：microcredit@ciit.cn</div>
+			<div id="copyright">©2016 XXX 版权所有</div>
+			<div id="contact">联系方式：xxx@xx.cn</div>
 		</div>
 		<!-- ************************* -->
 

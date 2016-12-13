@@ -17,155 +17,36 @@
 			<ul id="menu">
 				<li>客户信息录入</li>
 				<li>系统参数设置</li>
-				<li id='selected'>判别报表读取</li>
+				<li>判别报表读取</li>
+				<li id='selected'>贷款结果报表读取</li>
 				<li>账号注销</li>
 			</ul>
 		</div>
 		<div id="displayx">
-			<table border='0'>
-				<tr>
-					<td>企业名称</td>
-					<td>_________</td>
-					<td>性质
-					</th>
-					<td>_________</td>
-					<td>测定日期</td>
-					<td>_________</td>
-				</tr>
-			</table>
+			<h4>申请人贷款结果报表</h4>
 			<table border='1'>
 				<tr>
 					<th>序号</th>
-					<th>指标</th>
-					<th>指标得分</th>
-					<th>指标权重</th>
-					<th>权重得分</th>
+					<th>企业名称</th>
+					<th>综合评分</th>
+					<th>是否发放</th>
+					<th>贷款额度</th>
 				</tr>
 				<tr>
 					<td>1</td>
-					<td>名称地址规范</td>
+					<td>null</td>
 					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
+					<td>null</td>
+					<td>null</td>
+					<td><input type='submit' value='详细信息' /></td>
 				</tr>
 				<tr>
 					<td>2</td>
-					<td>注册资本</td>
+					<td>null</td>
 					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>3</td>
-					<td>行业景气</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>4</td>
-					<td>组织/所有权结构</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>5</td>
-					<td>有效经营年限</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>6</td>
-					<td>三月内财务报表</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>7</td>
-					<td>其他关键财务</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>8</td>
-					<td>产品生产特征</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>9</td>
-					<td>产品品质特征</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>10</td>
-					<td>产品市场需求</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>11</td>
-					<td>产品竞争特征</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>12</td>
-					<td>产品用户特征</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>13</td>
-					<td>账款催收记录</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>14</td>
-					<td>销售变现天数</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>15</td>
-					<td>付款异常</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>16</td>
-					<td>同行信用记录</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<td>17</td>
-					<td>主管个人信用</td>
-					<td>0.00</td>
-					<td>0.00</td>
-					<td>0.00</td>
-				</tr>
-				<tr>
-					<th>18</th>
-					<th>合计</th>
-					<th>——</th>
-					<th>0.00</th>
-					<th>0.00</th>
+					<td>null</td>
+					<td>null</td>
+					<td><input type='submit' value='详细信息' /></td>
 				</tr>
 			</table>
 

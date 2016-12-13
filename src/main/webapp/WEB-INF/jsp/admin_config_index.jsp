@@ -18,10 +18,12 @@
 				<li>客户信息录入</li>
 				<li id='selected'>系统参数设置</li>
 				<li>判别报表读取</li>
+				<li>贷款结果报表读取</li>
 				<li>账号注销</li>
 			</ul>
 		</div>
 		<div id="displayx">
+			<h4>设定指标</h4>
 			<table border='0'>
 				<tr>
 					<td>企业名称</td>

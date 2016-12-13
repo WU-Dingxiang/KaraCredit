@@ -28,7 +28,8 @@ public class DataProcessServiceImpl implements DataProcessService {
 	}
 
 	@Override
-	public boolean gtm(SourceData data, SourceDataItem item) {
+	public boolean gtm(SourceData data, //
+			SourceDataItem item) {
 		double X1 = item.getValue();
 		double u = data.getAverage(item);
 		double o = data.getStandardDeviation(item);
@@ -45,23 +46,31 @@ public class DataProcessServiceImpl implements DataProcessService {
 	}
 
 	@Override
-	public SourceData gatherProperty(SourceData data) {
-		SourceData newData = data.combineItems();
-		for (SourceDataItem item : data.getItems()) {
+	public SourceData gatherProperty(//
+			SourceData data) {
+		SourceData newData = //
+				data.combineItems();
+		for (SourceDataItem item : //
+		data.getItems()) {
 			if (item.isQuantitative()) {
-				double average = item.getAverage();
-				SourceDataItem newItem = newData.createNewItem(item, average);
+				double average = //
+					item.getAverage();
+				SourceDataItem newItem //
+					= newData.createNewItem(//
+							item, average);
 				newData.addItem(newItem);
 			} else {
 				if (item.isIgnorable())
-					data.logIgnorableItem(item);
+					data.logIgnorableItem(//
+							item);
 			}
 		}
 		return newData;
 	}
 
 	@Override
-	public SourceData progressiveSample(SourceData data) {
+	public SourceData progressiveSample(//
+			SourceData data) {
 		data.layerAnalyze();
 		Random r = new Random();
 		int M0 = r.nextInt(data.N / 2);
