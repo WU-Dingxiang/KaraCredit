@@ -33,7 +33,7 @@
 					</tr>
 					<tr>
 						<td><input type="text" name="captcha" placeholder="动态密码" /></td>
-						<td><input type="button" value="发送动态密码" /></td>
+						<td><input type="button" value="重新发送(38)" /></td>
 					</tr>
 					<tr>
 						<td><input type="submit" value="登录" /></td>
