@@ -13,16 +13,18 @@
 </body>
 <body id="homefirst">
 	<div id="wrapper">
-		<div id="header_index"></div>
-		<div id="navfirst">
-			<ul id="menu">
-				<li>信息录入</li>
-				<li>贷款申请</li>
-				<li>判别结果查询</li>
-				<li>账号注销</li>
-			</ul>
+		<div id="displaywrapper">
+			<div id="header_index"></div>
+			<div id="navfirst">
+				<ul id="menu">
+					<li>信息录入</li>
+					<li>贷款申请</li>
+					<li>判别结果查询</li>
+					<li>账号注销</li>
+				</ul>
+			</div>
+			<div id="display"></div>
 		</div>
-		<div id="display"></div>
 
 		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
 		<div id="footer">

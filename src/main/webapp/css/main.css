@@ -47,9 +47,10 @@ li#selected {
 	background-color: #4682B4
 }
 
-/*div#displayx table {
-	float: left;
-}*/
+div#displaywrapper{
+	height: 730px;
+}
+
 div#display {
 	margin: 0 auto; /*<<*/
 	width: 800px;

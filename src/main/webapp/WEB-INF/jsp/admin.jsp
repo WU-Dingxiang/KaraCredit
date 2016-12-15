@@ -12,22 +12,25 @@
 </head>
 <body id="homefirst">
 	<div id="wrapper">
-		<div id="header_index"></div>
-		<div id="navfirst">
-			<table id="menux">
-				<tr>
-					<td><img src="http://www.icosky.com/icon/png/System/Scrap/Administrator%202.png"></td>
-					<td style='background-color: #4682B4;'>客户信息录入</td>
-					<td style='background-color: #4682B4;'>系统参数设置</td>
-				</tr>
-				<tr>
-					<td style='background-color: #4682B4;'>判别报表读取</td>
-					<td style='background-color: #4682B4;'>贷款结果报表读取</td>
-					<td style='background-color: red;'>账号注销</td>
-				</tr>
-			</table>
+		<div id="displaywrapper">
+			<div id="header_index"></div>
+			<div id="navfirst">
+				<table id="menux">
+					<tr>
+						<td><img
+							src="http://www.icosky.com/icon/png/System/Scrap/Administrator%202.png"></td>
+						<td style='background-color: #4682B4;'>客户信息录入</td>
+						<td style='background-color: #4682B4;'>系统参数设置</td>
+					</tr>
+					<tr>
+						<td style='background-color: #4682B4;'>判别报表读取</td>
+						<td style='background-color: #4682B4;'>贷款结果报表读取</td>
+						<td style='background-color: red;'>账号注销</td>
+					</tr>
+				</table>
+			</div>
+			<div id="displayx"></div>
 		</div>
-		<div id="displayx"></div>
 
 		<!-- 2016-4-1 21:57:12 功能：修改文字 -->
 		<div id="footer">

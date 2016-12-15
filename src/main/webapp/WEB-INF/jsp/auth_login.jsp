@@ -17,8 +17,9 @@
 </head>
 <body id="homefirst">
 	<div id="wrapper">
-		<div id="header_index"></div>
-		<div id="displayx">
+		<div id="displaywrapper">
+			<div id="header_index"></div>
+			<div id="displayx"></div>
 			<form action="login" method="get">
 				<table>
 					<tr>
@@ -48,7 +49,6 @@
 			<div id="contact">联系方式：xx@xxx.com</div>
 		</div>
 		<!-- ************************* -->
-
 	</div>
 </body>
 </html>
